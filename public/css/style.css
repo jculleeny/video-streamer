@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(59, 68, 77), black, rgb(59, 68, 77));
+}
+
+/* CLASSES */
+.video-player-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-window {
+    border: 1px solid salmon;
+}
+
+/* .video-window:hover {
+    filter: blur(2px) grayscale(25%);
+} */
+
+.controls-container {
+    border: 1px solid seagreen;
+    display: flex;
+    justify-content: center;
+}
+
+.control-button {
+    background-color: royalblue;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    margin: 10px 5px;
+    font-size: 1.1rem;
+}
+
+.control-button:hover {
+    background-color: teal;
+}
+
+/* IDS */
+
+/* TABLET */
+
+/* MOBILE */

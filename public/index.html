@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="video-player-container">
+        <div class="video-window">
+            <video width="1280" height="720" autoplay="false" autoplay="true" controls src="/videos/The.Big.Short.2015.1080p.BluRay.H264.AAC-RARBG/The.Big.Short.2015.1080p.BluRay.H264.AAC-RARBG.mp4">
+                <source src="/videos/The.Big.Short.2015.1080p.BluRay.H264.AAC-RARBG/" type="video/mp4">
+                Video did not load properly
+            </video>
+        </div>
+    </div>
+    <div class="controls-container">
+        <button id="play" class="control-button">Play</button>
+        <button id="pause" class="control-button">Pause</button>
+        <button id="720p" class="control-button">720p</button>
+        <button id="480p" class="control-button">480p</button>
+        <button id="360p" class="control-button">360p</button>
+        <button id="v100" class="control-button">Volume 100</button>
+        <button id="v50" class="control-button">Volume 50</button>
+        <button id="v0" class="control-button">Volume 0</button>
+        <input type="range" name="volume" id="volume" min="0" max="100">
+        <div id="current-time" class="control-button">Time</div>
+    </div>
+    <script src="/js/video-player.js"></script>
+</body>
+</html>
